@@ -178,6 +178,10 @@
     <Compile Include="Migrations\202101290601061_InitialModel.Designer.cs">
       <DependentUpon>202101290601061_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101290714296_CreateTablePost.cs" />
+    <Compile Include="Migrations\202101290714296_CreateTablePost.Designer.cs">
+      <DependentUpon>202101290714296_CreateTablePost.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -374,6 +378,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202101290601061_InitialModel.resx">
       <DependentUpon>202101290601061_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101290714296_CreateTablePost.resx">
+      <DependentUpon>202101290714296_CreateTablePost.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -14,6 +14,9 @@ namespace GrowProject.Models
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<OderDetail> oderDetails { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<CategoryPost> CategoryPosts { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {

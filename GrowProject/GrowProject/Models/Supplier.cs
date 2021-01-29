@@ -35,5 +35,6 @@ namespace GrowProject.Models
         [StringLength(24)]
         public string Fax { set; get; }
         public string HomePage { set; get; }
+        public virtual ICollection<Product> Products { get; set; }
     }
 }

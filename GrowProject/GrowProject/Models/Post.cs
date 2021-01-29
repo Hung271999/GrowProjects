@@ -25,6 +25,7 @@ namespace GrowProject.Models
         public Boolean Status { set; get; }
         [Required]
         [StringLength(15)]
-        public string IDCategorPost { set; get; }
+        public string IDCategoryPost { set; get; }
+        public virtual CategoryPost CategoryPost { set; get; }
     }
 }

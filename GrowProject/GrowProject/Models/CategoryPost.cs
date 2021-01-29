@@ -18,6 +18,6 @@ namespace GrowProject.Models
         public string Titile { set; get; }
         [Required]
         public Boolean Status { set; get; }
-        public ICollection<Post> Posts { get; set; }
+        public virtual ICollection<Post> Posts { get; set; }
     }
 }

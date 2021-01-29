@@ -15,11 +15,15 @@ namespace GrowProject.Models
         [Required]
         [StringLength(15)]
         public string OrderID { set; get; }
+        [Required]
+        [StringLength(15)]
+        public string ProductID { set; get; }
         public decimal UnitPrice { set; get; }
 
         public float Quantity { set; get; }
      
         public float Discount { set; get; }
-        public ICollection<Order> Orders { get; set; }
+        public virtual Product Product { set; get; }
+        public virtual Order Order { set; get; }
     }
 }

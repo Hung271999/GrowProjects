@@ -101,10 +101,10 @@ D:\GrowProjects\GrowProject\GrowProject\bin\Microsoft.Owin.Security.Twitter.xml
 D:\GrowProjects\GrowProject\GrowProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\GrowProjects\GrowProject\GrowProject\bin\Microsoft.Owin.Security.OAuth.xml
 D:\GrowProjects\GrowProject\GrowProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.csprojAssemblyReference.cache
 D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.csproj.CoreCompileInputs.cache
 D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.csproj.CopyComplete
 D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.dll
 D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.pdb
 D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.Migrations.InitialModel.resources
 D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.csproj.GenerateResource.cache
+D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.csprojAssemblyReference.cache

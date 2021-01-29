@@ -29,5 +29,7 @@ namespace GrowProject.Models
         [Required]
         [StringLength(24)]
         public string Phone { set; get; }
+
+        public virtual ICollection<OderDetail> OderDetails { get; set; }
     }
 }

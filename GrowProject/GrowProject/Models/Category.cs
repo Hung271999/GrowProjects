@@ -20,7 +20,7 @@ namespace GrowProject.Models
         [StringLength(50)]
         public string Picture { set; get; }
 
-        public ICollection<Product> Products { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
 
     }
 }

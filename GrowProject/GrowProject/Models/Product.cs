@@ -36,6 +36,9 @@ namespace GrowProject.Models
           public int UnitsOnOrder { set; get; }
           public int  ReorderLevel { set; get; }
           public  float? Discounts { set; get; }
-        public ICollection<OderDetail> oderDetails { get; set; }
-}
+        public virtual Supplier Supplier { set; get; }
+        public virtual Category Category { set; get; }
+        public virtual ICollection<OderDetail> OderDetails { get; set; }
+
+    }
 }
