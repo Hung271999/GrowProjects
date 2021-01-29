@@ -106,3 +106,5 @@ D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.csproj.CoreCompile
 D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.csproj.CopyComplete
 D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.dll
 D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.pdb
+D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.Migrations.InitialModel.resources
+D:\GrowProjects\GrowProject\GrowProject\obj\Debug\GrowProject.csproj.GenerateResource.cache
