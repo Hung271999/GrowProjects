@@ -12,7 +12,7 @@ namespace GrowProject.Models
     {
         [Key]
         [StringLength(15)]
-        public string IDCategoryPost { set; get; }
+        public string CategoryPostID { set; get; }
         [Required]
         [StringLength(50)]
         public string Titile { set; get; }

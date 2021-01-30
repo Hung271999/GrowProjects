@@ -13,19 +13,18 @@ namespace GrowProject.Models
 
         [Key]
         [StringLength(15)]
-        public string IDPost { set; get; }
+        public string PostID { set; get; }
         [Required]
         [StringLength(50)]
         public string Titile { set; get; }
         [Required]
         public DateTime CreateDate { set; get; }
-        public DateTime PublishDate { set; get; }
-
+        public DateTime? PublishDate { set; get; }
         public string Picture { set; get; }
         public Boolean Status { set; get; }
-        [Required]
-        [StringLength(15)]
-        public string IDCategoryPost { set; get; }
+        public string CategoryPostID { set; get; }
         public virtual CategoryPost CategoryPost { set; get; }
+
+
     }
 }

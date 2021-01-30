@@ -12,9 +12,7 @@ namespace GrowProject.Models
     {
         [Key]
         public int OderDetailID { set; get; }
-        [Required]
-        [StringLength(15)]
-        public string OrderID { set; get; }
+        public int OrderID { set; get; }
         [Required]
         [StringLength(15)]
         public string ProductID { set; get; }
